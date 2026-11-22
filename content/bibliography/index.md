@@ -11,7 +11,7 @@ weight: 60
 
 - *[On Java 8](https://www.OnJava8.com)*, Mindview 2017, updated 2021. ISBN 978-0-9818725-2-0.
 
-- *[Atomic Scala](https://www.AtomicScala.com)* with Dianne Marsh.
+- *[Atomic Scala](https://bruceeckel.gumroad.com/l/AtomicScala)* with Dianne Marsh.
   Mindview 2011, 2nd Edition 2015, ISBN 978-0-9818725-1-3.
 
 - *First Steps in Flex*, with James Ward. MindView 2008, ISBN 978-0-9818725-0-6.

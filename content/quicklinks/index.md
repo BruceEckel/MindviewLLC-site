@@ -43,13 +43,13 @@ see what you need,
 
 + <a href="https://github.com/BruceEckel/OnJava8-Examples" target="_blank">On Java 8 Example Code</a>
 
-+ <a href="https://gum.co/HandsOnJava" target="_blank">Hands-On Java 2nd Ed. Seminar (Slides + Audio)</a>
++ <a href="https://bruceeckel.gumroad.com/l/HandsOnJava" target="_blank">Hands-On Java 2nd Ed. Seminar (Slides + Audio)</a>
 
 + <a href="https://www.amazon.com/Thinking-Java-4th-Bruce-Eckel/dp/0131872486/" target="_blank">Thinking in Java 4th Edition</a>
 
 + <a href="https://github.com/BruceEckel/TIJ4-code" target="_blank">Thinking in Java 4th Edition Example Code</a>
 
-+ <a href="https://gum.co/mvcKV" target="_blank">Thinking in Java 4th Edition Annotated Solution Guide</a>
++ <a href="https://bruceeckel.gumroad.com/l/mvcKV" target="_blank">Thinking in Java 4th Edition Annotated Solution Guide</a>
 
 + <a href="https://github.com/BruceEckel/ThinkingInC" target="_blank">Thinking in C Multimedia Seminar</a> (Prepares beginners for Java).
 
@@ -57,7 +57,7 @@ see what you need,
 
 ### Scala
 
-+ <a href="http://www.atomicscala.com/" target="_blank">Atomic Scala</a>
++ <a href="https://bruceeckel.gumroad.com/l/AtomicScala" target="_blank">Atomic Scala</a>
 
 ***
 
@@ -67,7 +67,7 @@ see what you need,
 
 + <a href="https://archive.org/details/TICPP2ndEdVolTwo" target="_blank">Thinking in C++ 2nd ed, Volume 2 Book (HTML) and Example Code</a>
 
-+ <a href="https://gum.co/OIPR" target="_blank">Thinking in C++ 2nd ed, Volume 1 Annotated Solution Guide</a>
++ <a href="https://bruceeckel.gumroad.com/l/OIPR" target="_blank">Thinking in C++ 2nd ed, Volume 1 Annotated Solution Guide</a>
 
 + <a href="https://github.com/BruceEckel/ThinkingInC" target="_blank">Thinking in C Multimedia Seminar</a> (Prepares beginners for C++). A seminar introducing the C language, consisting of slides and audio lectures. Also includes exercises and solutions. *Updated in 2023 for
 modern web browsers*.

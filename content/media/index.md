@@ -96,8 +96,6 @@ target="_blank">Slides</a>)
 
 - May 2012 [GeeCON, Poznan, Poland](https://2012.geecon.org/speakers/bruce-eckel/): The Power of Hybridization, Reinventing Business, and an Atomic Scala seminar ([Video](https://www.youtube.com/watch?v=2fnL0x5EQvQ))
 
-- May 2012 [Reinventing Business Presentation at Heroku](https://vimeo.com/herokai/review/40551380/dbcaffb1e2)
-
 - October 2011 [Presentation at CERN, Geneva: The Power of Hybridization](https://cds.cern.ch/record/1390426)
 
 - February 2011 Java Posse Roundup Lightning Talk: [Reinventing Business](https://www.youtube.com/watch?v=yyyfvG-jjko)
@@ -110,7 +108,7 @@ target="_blank">Slides</a>)
 
 - November 2008 [Interview with Zack Urlocker](https://www.youtube.com/watch?v=MPyJ-siBIls)
 
-- November 2008 [QCon San Francisco](https://qconsf.com/sf2010/sf2008/speaker/Bruce%2bEckel.html): Open Space introduction and facilitation
+- November 2008 [QCon San Francisco](https://qconsf.com/sf2008/sf2008/speaker/Bruce%2BEckel.html): Open Space introduction and facilitation
 
 - November 2008 [Drunk on Software #8: First Steps in Flex](https://www.youtube.com/watch?v=hP_m5Inu_N8) (Interview with James Ward, recorded at QCon San Francisco)
 
@@ -146,9 +144,9 @@ target="_blank">Slides</a>)
 
 - June and July 2003 Artima conversation with Bill Venners:
 [Python and the Programmer](https://www.artima.com/articles/python-and-the-programmer),
-[The Zen of Python](https://www.artima.com/intv/prodperf.html),
+[The Zen of Python](https://www.artima.com/articles/the-zen-of-python),
 [Type Checking and Techie Control](https://www.artima.com/articles/type-checking-and-techie-control),
-[Python and the Tipping Point](https://www.artima.com/intv/tippingP.html)
+[Python and the Tipping Point](https://www.artima.com/articles/python-and-the-tipping-point)
 
 - June 2003 [The 13th Annual Software Development Jolt & Productivity Awards](http://web.archive.org/web/2023/https://www.drdobbs.com/joltawards/the-13th-annual-software-development-jol/184414991?pgno=7) (*Thinking in Java*, 3rd Edition)
 
