@@ -17,7 +17,11 @@ weight: 50
 
 - October 2024 [A Bootiful Podcast Interview](https://bootifulpodcast.podbean.com/e/bruce-eckel-thinking-in-java-author-and-one-of-the-most-influential-authors-in-my-career) (Interview by Josh Long, recorded at dev2next)
 
+- October 2024 [Coffee + Software, live from dev2next](https://www.youtube.com/watch?v=eCcZzbvfTh4) (Livestream interview)
+
 - Fall 2024 [Effect Oriented Programming (Slides)](https://effectorientedprogramming.github.io/presos/dev2next_2024) (dev2next presentation with Bill Frasure and James Ward)
+
+- May 2025 PyCon Typing Summit: [Make Invalid States Unrepresentable](https://www.youtube.com/watch?v=7uixlNTOY4s) (The first talk in the recording)
 
 - May 2024 PyCon Presentation [Functional Error Handling](https://youtu.be/4ANRgTDtuXk)
 
@@ -29,7 +33,7 @@ weight: 50
 
 - July 2022 [Chinese InfoQ Interview](https://mp.weixin.qq.com/s/ivdnSu3RUpm6reJ2UTO_hQ) (Use Google Translate to convert).
 
-- July 2022 [Real Python Podcast Interview](https://realpython.com/podcasts/rpp/116/)
+- July 2022 [Real Python Podcast Interview](https://realpython.com/podcasts/rpp/116/) (also on [YouTube](https://www.youtube.com/watch?v=vhTO5-YtzyE))
 
 - July 2022 [The Eckel Index: New language features from Java 9 through Java 17](http://web.archive.org/web/20240104173544/https://blogs.oracle.com/javamagazine/post/java-eckel-index) (Java Magazine's index of my seven 2022 articles)
 
@@ -39,11 +43,15 @@ weight: 50
 
 - April 2022 [A Tour of the Modern Java Platform](https://www.youtube.com/watch?v=4RbYiTI5P_Q&ab_channel=ChariotSolutions) (Online presentation with James Ward)
 
+- November 2021 [A Tour of the Modern Java Platform](https://www.youtube.com/watch?v=Ec7ZUeiL_2c) (SF Java Users meetup, with James Ward)
+
 - November 2021 [Comparing features in Java 17 and Kotlin](https://www.youtube.com/watch?v=xU-gbzcToOs) (Java and Kotlin user group presentation)
+
+- September 2021 [A Tour of the Modern Java Platform](https://www.youtube.com/watch?v=y901lgIuRx0) (VMware Tanzu presentation with James Ward)
 
 - March 2021 [JetBrains Connect, Episode 4: "Why Kotlin?"](https://youtu.be/0V-qp-qpjzU)
 
-- February 2021 [Interview on Frontmatter Podcast](https://leanpub.com/podcasts/leanpub/bruce-eckel-02-02-21)
+- February 2021 [Interview on Frontmatter Podcast](https://leanpub.com/podcasts/leanpub/bruce-eckel-02-02-21) (also on [YouTube](https://www.youtube.com/watch?v=rtSl-N6li8Y))
 
 - September 2019 [The 6 Figure Developer Podcast, Episode 111: Atomic Kotlin and Teal Orgs](https://6figuredev.com/podcast/episode-111-atomic-kotlin-and-teal-orgs-with-bruce-eckel/)
 
@@ -51,7 +59,7 @@ weight: 50
 (<a href="https://docs.google.com/presentation/d/13yWROkwsd95Y_Xcwr-lFymClaEOgj64hq8YJZYPFO-w/edit?usp=sharing"
 target="_blank">Slides</a>)
 
-- January 2018 [Panel Discussion](https://talkpython.fm/episodes/show/148/python-book-authors-panel-discussion)
+- January 2018 [Panel Discussion](https://talkpython.fm/episodes/show/148/python-book-authors-panel-discussion) (Talk Python To Me; also on [YouTube](https://www.youtube.com/watch?v=9uP8o66Q9kc))
 
 - November 2017 [PyDev of the week](https://blog.pythonlibrary.org/2017/11/06/pydev-of-the-week-bruce-eckel/)
 
@@ -76,7 +84,7 @@ target="_blank">Slides</a>)
 
 - 2014 CRAFT Conference, Budapest: [What Makes a Good Development Process?](https://www.infoq.com/presentations/development-patterns-process/)
 
-- May 2014 [Rethinking Scala (Presentation)](https://www.slideshare.net/slideshow/rethinking-scala-presented-in-san-francisco-may-7-2014/34401420)
+- May 2014 [Rethinking Scala (Presentation)](https://www.slideshare.net/slideshow/rethinking-scala-presented-in-san-francisco-may-7-2014/34401420) ([Video](https://www.youtube.com/watch?v=vWsWoAUjjck) from the SF Scala meetup)
 
 - July 2013 OSCON Presentation: [Reinventing Business](https://www.youtube.com/watch?v=gt5OSmJfQL0)
 
@@ -86,7 +94,7 @@ target="_blank">Slides</a>)
 
 - March 2013 PyCon Presentation [Rethinking Errors: Learning from Scala and Go](https://www.youtube.com/watch?v=REOL1AV_PCg)
 
-- May 2012 [GeeCON, Poznan, Poland](https://2012.geecon.org/speakers/bruce-eckel/): The Power of Hybridization, Reinventing Business, and an Atomic Scala seminar
+- May 2012 [GeeCON, Poznan, Poland](https://2012.geecon.org/speakers/bruce-eckel/): The Power of Hybridization, Reinventing Business, and an Atomic Scala seminar ([Video](https://www.youtube.com/watch?v=2fnL0x5EQvQ))
 
 - May 2012 [Reinventing Business Presentation at Heroku](https://vimeo.com/herokai/review/40551380/dbcaffb1e2)
 
@@ -104,11 +112,15 @@ target="_blank">Slides</a>)
 
 - November 2008 [QCon San Francisco](https://qconsf.com/sf2010/sf2008/speaker/Bruce%2bEckel.html): Open Space introduction and facilitation
 
-- September 2008 PyConBrasil, Rio de Janeiro: [Why I Love Python](https://www.youtube.com/watch?v=3OTMR-H2IUI)
+- November 2008 [Drunk on Software #8: First Steps in Flex](https://www.youtube.com/watch?v=hP_m5Inu_N8) (Interview with James Ward, recorded at QCon San Francisco)
+
+- September 2008 PyConBrasil, Rio de Janeiro: [Why I Love Python](https://www.youtube.com/watch?v=3OTMR-H2IUI) and [Open Spaces](https://www.youtube.com/watch?v=S7i9p9jW2F0)
 
 - August 2008 [The Flex Show, Episode 50](http://web.archive.org/web/20080823221848/http://www.theflexshow.com:80/blog/index.cfm/2008/8/13/The-Flex-Show-Episode-50-Interview-James-Ward-and-Bruce-Eckell) (Interview with James Ward)
 
 - March 2008 [Review of Java Posse Roundup](https://www.infoq.com/news/2008/03/javaposse-roundup-2008)
+
+- March 2008 Java Posse Roundup Lightning Talk: [What Is Bruce Doing?](https://www.youtube.com/watch?v=54hAlyDv9I4)
 
 - July 2007 [Java Posse #131: Walking Around JavaOne 2007, Part 2](http://javaposse.com/java_posse_131_walking_around_java_one_2007_part_2)
 
