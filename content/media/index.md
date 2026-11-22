@@ -148,7 +148,7 @@ target="_blank">Slides</a>)
 [Type Checking and Techie Control](https://www.artima.com/articles/type-checking-and-techie-control),
 [Python and the Tipping Point](https://www.artima.com/articles/python-and-the-tipping-point)
 
-- June 2003 [The 13th Annual Software Development Jolt & Productivity Awards](http://web.archive.org/web/2023/https://www.drdobbs.com/joltawards/the-13th-annual-software-development-jol/184414991?pgno=7) (*Thinking in Java*, 3rd Edition)
+- June 2003 [The 13th Annual Software Development Jolt & Productivity Awards](http://web.archive.org/web/20190626220308/http://www.drdobbs.com/joltawards/the-13th-annual-software-development-jol/184414991?pgno=7) (*Thinking in Java*, 3rd Edition)
 
 - Sept 2001 [InformIT Interview](http://web.archive.org/web/20250326021354/https://www.informit.com/articles/article.aspx?p=23416)
 

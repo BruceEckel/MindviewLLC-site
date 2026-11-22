@@ -35,7 +35,7 @@ the JavaPosse Roundup Conference (now the
 His book *Thinking in C++* won the Software Development Jolt Award for best book
 published in 1995. *Thinking in Java* received the Jolt Award for best book
 published in 2002, as well as the [Java World Reader's Choice
-Award](http://www.javaworld.com/javaworld/rcawards99/jw-0320-rca.html) and Java
+Award](http://web.archive.org/web/20010617110133/http://www.javaworld.com/javaworld/rcawards99/jw-0320-rca.html) and Java
 World Editor's Choice Award for best book, the Java Developer's Journal Editor's
 Choice Award for books, and the Software Development Productivity Award in 1999.
 
