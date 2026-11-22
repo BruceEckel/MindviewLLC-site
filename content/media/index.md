@@ -19,7 +19,7 @@ weight: 50
 
 - Fall 2024 [Effect Oriented Programming (Slides)](https://effectorientedprogramming.github.io/presos/dev2next_2024) (dev2next presentation with Bill Frasure and James Ward)
 
-- May 2024 PyCon Presentation [Functional Error Handling](https://youtu.be/Z3j-jWX7B4M?si=HINF5p6k64Bzez2L)
+- May 2024 PyCon Presentation [Functional Error Handling](https://youtu.be/4ANRgTDtuXk)
 
 - April 2023 Pycon presentation [Rethinking Objects](https://youtu.be/2Ul6WlKPcgY)
 

@@ -25,6 +25,23 @@ uv run build.py            # Build into dist/
 uv run pytest              # Check the build
 ```
 
+## Check links
+
+```
+uv run check_links.py             # Check every external link
+uv run check_links.py --markdown  # Print the report as Markdown
+```
+
+The script reads `content/` and `site.toml` and requests each external URL once.
+It groups the report as failed, blocked, and redirected.
+A blocked URL answered 403 or 429, so open it in a browser to decide.
+The exit status is 1 when a URL failed.
+
+The `Links` workflow runs the check every Monday and on demand from the Actions tab.
+If any URL failed, it opens an issue titled "Broken links found" with the report.
+If that issue is already open, it adds the report as a comment.
+The check stays out of `pytest` and out of the Netlify build.
+
 ## Deploy
 
 Netlify builds and publishes the site on every push to `main`, using the command in `netlify.toml`.

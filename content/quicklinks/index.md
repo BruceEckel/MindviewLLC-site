@@ -11,7 +11,7 @@ see what you need,
 
 ### Miscellaneous
 
-+ May 2024 PyCon Presentation [Functional Error Handling](https://youtu.be/Z3j-jWX7B4M?si=HINF5p6k64Bzez2L)
++ May 2024 PyCon Presentation [Functional Error Handling](https://youtu.be/4ANRgTDtuXk)
 
 ***
 
