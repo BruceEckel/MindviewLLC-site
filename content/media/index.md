@@ -1,9 +1,26 @@
 ---
 title: Media
 weight: 50
+description: "Bruce Eckel's conference talks, podcasts, interviews, and reviews from 2000 to the present, with links to video and slides."
 ---
 
-- (Ongoing) [Happy Path Programming Podcast](https://happypathprogramming.com)
+## Start Here
+
+- (Ongoing) [Happy Path Programming Podcast](https://happypathprogramming.com), with James Ward
+
+- [Demystifying the GIL](https://youtu.be/MC1PQ7ZgUeU) (PyCon 2026)
+
+- [Free-Threaded Python, Type Checking, and Programming in the AI Era](https://www.youtube.com/watch?v=hj6RiSEUuoY) (Interview with Paul Everitt, 2026)
+
+- [GOTO Book Club: Effect Oriented Programming](https://www.youtube.com/watch?v=Qds6rO9lxps) (Interview, 2026)
+
+- [Functional Error Handling](https://youtu.be/4ANRgTDtuXk) (PyCon 2024)
+
+- [Rethinking Objects](https://youtu.be/2Ul6WlKPcgY) (PyCon 2023)
+
+- [Three Programming Disruptions](https://www.youtube.com/watch?v=K5EFqfnx-0I) (GeeCON 2019)
+
+## 2026
 
 - August 2026 [Thinking in Python: Bruce Eckel Revives His 2008 Book With Claude in 2026](https://www.developersdigest.tech/blog/thinking-in-python-bruce-eckel-2026) (Developers Digest article)
 
@@ -13,7 +30,13 @@ weight: 50
 
 - January 2026 [GOTO Book Club: Effect Oriented Programming](https://gotopia.tech/episodes/420/effective-oriented-programming) (Interview by Andrew Harmel-Law, with Bill Frasure and James Ward; also on [YouTube](https://www.youtube.com/watch?v=Qds6rO9lxps))
 
+## 2025
+
 - November 2025 [A Bootiful Podcast: Language design, effects, abstraction, concurrency, and so much more](https://spring.io/blog/2025/11/13/a-bootiful-podcast-bruce-eckel/) (Interview by Josh Long; also on [YouTube](https://www.youtube.com/watch?v=h1MGDpJVj4s))
+
+- May 2025 PyCon Typing Summit: [Make Invalid States Unrepresentable](https://www.youtube.com/watch?v=7uixlNTOY4s) (The first talk in the recording)
+
+## 2024
 
 - October 2024 [A Bootiful Podcast Interview](https://bootifulpodcast.podbean.com/e/bruce-eckel-thinking-in-java-author-and-one-of-the-most-influential-authors-in-my-career) (Interview by Josh Long, recorded at dev2next)
 
@@ -21,11 +44,13 @@ weight: 50
 
 - Fall 2024 [Effect Oriented Programming (Slides)](https://effectorientedprogramming.github.io/presos/dev2next_2024) (dev2next presentation with Bill Frasure and James Ward)
 
-- May 2025 PyCon Typing Summit: [Make Invalid States Unrepresentable](https://www.youtube.com/watch?v=7uixlNTOY4s) (The first talk in the recording)
-
 - May 2024 PyCon Presentation [Functional Error Handling](https://youtu.be/4ANRgTDtuXk)
 
+## 2023
+
 - April 2023 Pycon presentation [Rethinking Objects](https://youtu.be/2Ul6WlKPcgY)
+
+## 2022
 
 - October 2022 [Sii Poland Conference: Smarter Types with Records](https://youtu.be/ZzlnStXjoJo).
 
@@ -43,6 +68,8 @@ weight: 50
 
 - April 2022 [A Tour of the Modern Java Platform](https://www.youtube.com/watch?v=4RbYiTI5P_Q&ab_channel=ChariotSolutions) (Online presentation with James Ward)
 
+## 2021
+
 - November 2021 [A Tour of the Modern Java Platform](https://www.youtube.com/watch?v=Ec7ZUeiL_2c) (SF Java Users meetup, with James Ward)
 
 - November 2021 [Comparing features in Java 17 and Kotlin](https://www.youtube.com/watch?v=xU-gbzcToOs) (Java and Kotlin user group presentation)
@@ -53,13 +80,19 @@ weight: 50
 
 - February 2021 [Interview on Frontmatter Podcast](https://leanpub.com/podcasts/leanpub/bruce-eckel-02-02-21) (also on [YouTube](https://www.youtube.com/watch?v=rtSl-N6li8Y))
 
+## 2019
+
 - September 2019 [The 6 Figure Developer Podcast, Episode 111: Atomic Kotlin and Teal Orgs](https://6figuredev.com/podcast/episode-111-atomic-kotlin-and-teal-orgs-with-bruce-eckel/)
 
 - May 2019 Geecon, Krakow, Poland: [Three Programming Disruptions](https://www.youtube.com/watch?v=K5EFqfnx-0I)
 (<a href="https://docs.google.com/presentation/d/13yWROkwsd95Y_Xcwr-lFymClaEOgj64hq8YJZYPFO-w/edit?usp=sharing"
 target="_blank">Slides</a>)
 
+## 2018
+
 - January 2018 [Panel Discussion](https://talkpython.fm/episodes/show/148/python-book-authors-panel-discussion) (Talk Python To Me; also on [YouTube](https://www.youtube.com/watch?v=9uP8o66Q9kc))
+
+## 2017
 
 - November 2017 [PyDev of the week](https://blog.pythonlibrary.org/2017/11/06/pydev-of-the-week-bruce-eckel/)
 
@@ -69,6 +102,8 @@ target="_blank">Slides</a>)
 *On Java 8*](https://blogs.oracle.com/javamagazine/post/book-review-on-java-8-eckel)
 
 - February 2017 PyCaribbean Keynote: [Science is What Works](https://www.youtube.com/watch?v=_ncc69-cunA)
+
+## 2015
 
 - September 2015 JET Conference Keynote, Minsk: [A Language is More Than a Language](https://www.youtube.com/watch?v=d25z-wO1zzs)
 
@@ -80,11 +115,15 @@ target="_blank">Slides</a>)
 
 - April 2015 [The Next Big Challenge: Getting Better Ideas](https://bruceeckel.com/2015/05/04/getting-better-ideas-presentation/) (Presentation at VuWall, Montreal)
 
+## 2014
+
 - October 2014 GeeCON Prague: [Do Languages Matter? (Slides)](https://www.slideshare.net/slideshow/do-languages-matter/40681551)
 
 - 2014 CRAFT Conference, Budapest: [What Makes a Good Development Process?](https://www.infoq.com/presentations/development-patterns-process/)
 
 - May 2014 [Rethinking Scala (Presentation)](https://www.slideshare.net/slideshow/rethinking-scala-presented-in-san-francisco-may-7-2014/34401420) ([Video](https://www.youtube.com/watch?v=vWsWoAUjjck) from the SF Scala meetup)
+
+## 2013
 
 - July 2013 OSCON Presentation: [Reinventing Business](https://www.youtube.com/watch?v=gt5OSmJfQL0)
 
@@ -94,11 +133,17 @@ target="_blank">Slides</a>)
 
 - March 2013 PyCon Presentation [Rethinking Errors: Learning from Scala and Go](https://www.youtube.com/watch?v=REOL1AV_PCg)
 
+## 2012
+
 - May 2012 [GeeCON, Poznan, Poland](https://2012.geecon.org/speakers/bruce-eckel/): The Power of Hybridization, Reinventing Business, and an Atomic Scala seminar ([Video](https://www.youtube.com/watch?v=2fnL0x5EQvQ))
+
+## 2011
 
 - October 2011 [Presentation at CERN, Geneva: The Power of Hybridization](https://cds.cern.ch/record/1390426)
 
 - February 2011 Java Posse Roundup Lightning Talk: [Reinventing Business](https://www.youtube.com/watch?v=yyyfvG-jjko)
+
+## 2000 to 2009
 
 - June/July 2009 [EuroPython Keynote](https://ep2009.europython.eu/), Birmingham, UK
 

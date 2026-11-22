@@ -38,6 +38,7 @@ class Page:
     title: str
     html: str
     weight: int | None = None
+    description: str = ""
     toc: list[tuple[str, str]] = field(default_factory=list)
     previous: "Page | None" = None
     next: "Page | None" = None
@@ -78,6 +79,7 @@ def load_page(source: Path, md: MarkdownIt) -> Page:
         title=meta["title"],
         html=md.renderer.render(tokens, md.options, {}),
         weight=meta.get("weight"),
+        description=meta.get("description", ""),
         toc=toc if len(toc) >= TOC_MINIMUM else [],
     )
 

@@ -1,6 +1,7 @@
 ---
 title: Quick Links
 weight: 20
+description: "Links to Bruce Eckel's books, example code, blogs, podcast, and conferences, grouped by programming language."
 ---
 
 These might be the links you're looking for. If you don't
@@ -11,35 +12,49 @@ see what you need,
 
 ### Miscellaneous
 
-+ May 2024 PyCon Presentation [Functional Error Handling](https://youtu.be/4ANRgTDtuXk)
++ May 2026 PyCon Presentation [Demystifying the GIL](https://youtu.be/MC1PQ7ZgUeU)
+
++ More talks and interviews are on the [Media](/media) page
 
 ***
 
 ### Conferences
 
-+ <a href="http://www.WinterTechForum.com" target="_blank">The Winter Tech Forum</a>
++ <a href="https://www.WinterTechForum.com" target="_blank">The Winter Tech Forum</a>
 
 ***
 
 ### Blogs
 
-+ <a href="http://BruceEckel.github.io/" target="_blank">BruceEckel.github.io</a>
++ <a href="https://BruceEckel.github.io/" target="_blank">BruceEckel.github.io</a>
 
-+ <a href="http://www.BruceEckel.com/" target="_blank">www.BruceEckel.com (older)</a>
++ <a href="https://www.BruceEckel.com/" target="_blank">www.BruceEckel.com (older)</a>
 
 + 2005-2014 [Artima Blog](https://www.artima.com/weblogs/index.jsp?blogger=beckel)
 
 ***
 
+### Podcast
+
++ <a href="https://happypathprogramming.com/" target="_blank">Happy Path Programming</a>, with James Ward
+
+***
+
+### Python
+
++ <a href="https://thinkingintypes.com/" target="_blank">Thinking in Types</a> (in progress)
+
+***
+
 ### Kotlin
 
-+ <a href="http://www.AtomicKotlin.com" target="_blank">Atomic Kotlin</a>
++ <a href="https://www.AtomicKotlin.com" target="_blank">Atomic Kotlin</a>
 
 ***
 
 ### Java
 
-+ <a href="http://www.OnJava8.com" target="_blank">On Java 8</a>
++ <a href="https://www.OnJava8.com" target="_blank">On Java 8</a>
 
 + <a href="https://github.com/BruceEckel/OnJava8-Examples" target="_blank">On Java 8 Example Code</a>
 
@@ -56,6 +71,8 @@ see what you need,
 ***
 
 ### Scala
+
++ <a href="https://effectorientedprogramming.com/" target="_blank">Effect Oriented Programming</a>, with Bill Frasure and James Ward
 
 + <a href="https://bruceeckel.gumroad.com/l/AtomicScala" target="_blank">Atomic Scala</a>
 
@@ -91,9 +108,9 @@ their own.
 Most of these were mentioned in various editions of *Thinking in Java*
 
 + *Thinking in Patterns with Java*. However, there is a Design Patterns
-chapter in <a href="http://www.OnJava8.com" target="_blank">On Java 8</a>
+chapter in <a href="https://www.OnJava8.com" target="_blank">On Java 8</a>
 
 + *Thinking in Enterprise Java*
 
 + Various supplements to *Thinking in Java*. Some of these topics are covered in
-<a href="http://www.OnJava8.com" target="_blank">On Java 8</a>
+<a href="https://www.OnJava8.com" target="_blank">On Java 8</a>

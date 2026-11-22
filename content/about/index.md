@@ -1,6 +1,7 @@
 ---
 title: About
 weight: 200
+description: "Contact MindView, read Bruce Eckel's biographies in four lengths, and download a publicity photo or the IRS Form W-9."
 ---
 
 - Questions? Email MindView: <button type="button" class="email-button" data-to="mindview">Show email address</button><noscript> (Enable JavaScript to see the email address.)</noscript>

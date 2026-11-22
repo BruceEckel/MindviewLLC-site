@@ -1,6 +1,7 @@
 ---
 title: MindView
 weight: 10
+description: "Bruce Eckel coaches software teams in architecture, design, programming, and communication, with Python as his preferred language."
 ---
 
 In a hurry? The [Quick Links](/quicklinks) page might have what you're looking for.
@@ -23,7 +24,7 @@ Although I've written books on numerous languages, Python---which I've used sinc
 I have been delving into Rust, which seems the ideal language for writing Python extensions.
 
 I consider distributed version control, testing, and build automation to be the foundation of a reliable development process.
-I believe it's worth automating things, primarly to reduce human error.
+I believe it's worth automating things, primarily to reduce human error.
 Automation frees minds to solve more complicated problems.
 
 My skills lie in teaching, coaching, and leading architecture and code reviews.

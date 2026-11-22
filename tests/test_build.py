@@ -103,3 +103,21 @@ def test_stylesheet_and_script_addresses_carry_a_version(dist):
     html = read(dist, "about")
     assert re.search(r'/css/site\.css\?v=[0-9a-f]{10}"', html)
     assert re.search(r'/js/site\.js\?v=[0-9a-f]{10}"', html)
+
+
+def test_each_page_carries_its_own_description(dist):
+    found = set()
+    for slug in SLUGS:
+        html = read(dist, slug)
+        match = re.search(r'<meta name="description" content="([^"]+)">', html)
+        assert match, slug
+        assert f'<meta property="og:description" content="{match[1]}">' in html
+        found.add(match[1])
+    assert len(found) == len(SLUGS)
+
+
+def test_the_media_page_is_grouped_by_year(dist):
+    html = read(dist, "media")
+    for heading in ("start-here", "2026", "2000-to-2009"):
+        assert f'id="{heading}"' in html, heading
+    assert "On this page" in html

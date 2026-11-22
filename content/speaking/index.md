@@ -1,6 +1,7 @@
 ---
 title: Inviting Bruce to Speak
 weight: 40
+description: "What Bruce Eckel asks of hosts who invite him to speak: travel, expenses, AV requirements, and how to inquire."
 ---
 
 I enjoy speaking at events, in companies and to user groups, and take every
@@ -21,7 +22,7 @@ but not essential -- an exceptional experience is what really motivates me.
 
 When planning the trip, see if it's possible to add extra-curricular
 activities, such as visits to companies, business incubators, maker spaces,
-bookstore signings, and other places and activites of interest.
+bookstore signings, and other places and activities of interest.
 
 I am happy, and even prefer, to stay in someone's guest room rather than a
 hotel, which often saves money.
@@ -29,7 +30,7 @@ hotel, which often saves money.
 I'm especially interested in trying new experiments. The more interesting the
 experiment, the more I want to participate. For example, I can help you
 create and organize an [open-spaces event](
-http://wintertechforum.com/open-spaces/); I have had over ten years of
+https://www.wintertechforum.com/open-spaces/); I have had over ten years of
 experience creating my own open-spaces conferences.
 
 ## Opportunity Costs
@@ -60,7 +61,7 @@ trips short and busy.
 I ask that all my travel expenses are covered. This includes:
 
 1. Driving from Crested Butte to Denver and back (500 miles at the standard US
-IRS rate of 54.5 cents per mile = $273).
+IRS mileage rate).
 
 2. The Denver Airport hotel which includes the cost of parking during the
 trip. For domestic flights this usually means the night before the flight, and

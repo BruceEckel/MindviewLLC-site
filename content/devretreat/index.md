@@ -1,6 +1,7 @@
 ---
 title: Developer Retreats
 weight: 25
+description: "Developer Retreats in Crested Butte, Colorado: unstructured time to work or explore among like-minded programmers, with no agenda."
 ---
 
 A *developer retreat* creates a space in the Rocky Mountains for you to change

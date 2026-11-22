@@ -1,6 +1,7 @@
 ---
 title: Bibliography
 weight: 60
+description: "Books, video courses, and magazine columns by Bruce Eckel since 1986, including Thinking in Java, Thinking in C++, and Atomic Kotlin."
 ---
 
 ## Books
