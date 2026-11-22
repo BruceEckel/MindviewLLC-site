@@ -1,0 +1,58 @@
+# Site settings: the title, the menu, and the cards on the home page.
+
+title = "MindView"
+tagline = "Exceptional Learning Experiences"
+description = "MindView LLC: books, seminars, self-organizing events, and other learning experiences from Bruce Eckel."
+intro = "I'm Bruce Eckel and this is my company, MindView. I create books, seminars, self organizing events, and other learning experiences and experiments."
+
+# Where the site is served. On Netlify the build takes the origin from the
+# URL variable that Netlify sets, so this value matters for a local build.
+origin = "https://www.mindviewllc.com"
+base = ""         # A path prefix, for a host that serves the site below the root
+preview = true    # true adds a noindex tag, so search engines skip the trial site
+
+logo = "/images/mindview-circle.png"
+favicon = "/images/favicon.png"
+
+# The menu. An item is [name, url]; a url that starts with "/" is a page.
+nav = [
+    ["Consulting", "/mindview/"],
+    ["Quick Links", "/quicklinks/"],
+    ["Speaking", "/speaking/"],
+    ["Developer Retreat", "/devretreat/"],
+    ["Media", "/media/"],
+    ["Bibliography", "/bibliography/"],
+    ["About", "/about/"],
+    ["Blog", "https://www.bruceeckel.com/"],
+]
+
+# The cards on the home page, in order.
+[[card]]
+title = "Quick Links"
+text = "Books, blogs, and projects, grouped by language."
+url = "/quicklinks/"
+
+[[card]]
+title = "Consulting"
+text = "Coaching for teams in architecture, design, programming, and communication."
+url = "/mindview/"
+
+[[card]]
+title = "Speaking"
+text = "What to know before you invite Bruce to speak."
+url = "/speaking/"
+
+[[card]]
+title = "Developer Retreat"
+text = "Unstructured time to work among like-minded people in Crested Butte, Colorado."
+url = "/devretreat/"
+
+[[card]]
+title = "Winter Tech Forum"
+text = "A self-organizing Open Spaces conference in Crested Butte."
+url = "https://www.wintertechforum.com/"
+
+[[card]]
+title = "Blog"
+text = "Essays on programming and learning at bruceeckel.com."
+url = "https://www.bruceeckel.com/"

@@ -1,0 +1,36 @@
+---
+title: MindView
+weight: 10
+---
+
+In a hurry? The [Quick Links](/quicklinks) page might have what you're looking for.
+
+Welcome. I'm Bruce Eckel and this is my company, MindView. I
+create books, seminars, self organizing events, and other learning experiences and experiments.
+
+## Consulting
+
+I solve understanding issues around software development for teams who want to learn and improve.
+I coach team skills in architecture, design, programming, and personal communication.
+Your benefit from my services is an essential part of my satisfaction, together with the interpersonal interaction around these activities.
+
+I love taking complex ideas and simplifying them using group learning experiences and Nonviolent Communication (NVC) tools. I have been taking NVC workshops for over 10 years. I foster mutual support during group reviews.
+
+I want to improve everyone's ability to comfortably say "I don't know."
+Learning can feel vulnerable, but the sooner you reveal that you don't know something, the sooner you can start understanding it.
+
+Although I've written books on numerous languages, Python---which I've used since the mid-90s---is still the language I enjoy most.
+I have been delving into Rust, which seems the ideal language for writing Python extensions.
+
+I consider distributed version control, testing, and build automation to be the foundation of a reliable development process.
+I believe it's worth automating things, primarly to reduce human error.
+Automation frees minds to solve more complicated problems.
+
+My skills lie in teaching, coaching, and leading architecture and code reviews.
+I've also had extensive experience organizing open-spaces events.
+
+I am conversant in specific areas where I do not consider myself expert enough to provide reliable advice: databases, web systems, operations, security, management, agile/scrum, product management, and certainly others.
+
+I enjoy the flexible thinking I sometimes find in smaller organizations.
+
+If you think we might find a good fit, I'm happy to discuss possibilities: <button type="button" class="email-button" data-to="bruce">Show email address</button>.

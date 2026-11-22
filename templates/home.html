@@ -1,0 +1,31 @@
+{% extends "base.html" %}
+{% block title %}{{ site.title }}: {{ site.tagline }}{% endblock %}
+{% block main %}
+<section class="hero">
+  <div class="hero-inner">
+    <img class="hero-logo" src="{{ site.logo }}" alt="" width="260" height="260">
+    <div>
+      <p class="hero-name">{{ site.title }}</p>
+      <h1>{{ site.tagline }}</h1>
+      <p class="hero-intro">{{ site.intro }}</p>
+      <p class="hero-actions">
+        <a class="button" href="/quicklinks/">Quick Links</a>
+        <a class="button ghost" href="/mindview/">Consulting</a>
+      </p>
+    </div>
+  </div>
+</section>
+<section class="cards" aria-label="Where to go">
+  {% for card in site.card %}
+  {% if card.url.startswith("/") %}
+  <a class="card" href="{{ card.url }}">
+    <h2>{{ card.title }}</h2>
+  {% else %}
+  <a class="card" href="{{ card.url }}" target="_blank" rel="noopener">
+    <h2>{{ card.title }} <span aria-hidden="true">&nearr;</span></h2>
+  {% endif %}
+    <p>{{ card.text }}</p>
+  </a>
+  {% endfor %}
+</section>
+{% endblock %}
