@@ -67,7 +67,7 @@ def test_relative_links_resolve(dist):
 
 def test_home_page_shows_the_cards(dist):
     html = (dist / "index.html").read_text(encoding="utf-8")
-    assert html.count('class="card"') == 6
+    assert html.count('class="card"') == 9
     assert "Exceptional Learning Experiences</h1>" in html
 
 

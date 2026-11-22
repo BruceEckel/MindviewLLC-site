@@ -48,6 +48,21 @@ text = "Unstructured time to work among like-minded people in Crested Butte, Col
 url = "/devretreat/"
 
 [[card]]
+title = "Media"
+text = "Presentations, podcasts, and interviews."
+url = "/media/"
+
+[[card]]
+title = "Bibliography"
+text = "Books, video courses, and articles since 1986."
+url = "/bibliography/"
+
+[[card]]
+title = "About"
+text = "Contact, biographies, and a publicity photo."
+url = "/about/"
+
+[[card]]
 title = "Winter Tech Forum"
 text = "A self-organizing Open Spaces conference in Crested Butte."
 url = "https://www.wintertechforum.com/"
