@@ -12,10 +12,8 @@ We often have coffee or meals together, and spontaneously organize other
 activities. There is no formal structure. Conversations and new ideas may
 happen.
 
-The retreat takes place at <a href="https://www.evolvework.co" target="_blank"
-rel="noopener noreferrer">Evolve Coworking</a> in Crested Butte, where you'll
-find comfortable Aeron-style chairs and high-speed fiber. Crested Butte is full
-of restaurants, coffee shops and opportunities for non-work outdoor activities.
+The retreat takes place in Crested Butte, which is full of restaurants, coffee
+shops and opportunities for non-work outdoor activities.
 
 <hr>
 

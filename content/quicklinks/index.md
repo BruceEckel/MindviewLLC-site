@@ -7,12 +7,6 @@ These might be the links you're looking for. If you don't
 see what you need,
 <button type="button" class="email-button" data-to="mindview" data-subject="Mindview site query">send a note</button>.
 
-Littered about the Internet you will find various partially-completed projects.
-If you don't find something about it here, chances are
-it's a dead project. While I start projects with great enthusiasm, I have
-yet to find a consistent method for pruning ones that fail to take on a life of
-their own.
-
 ***
 
 ### Miscellaneous
@@ -87,6 +81,12 @@ modern web browsers*.
 ***
 
 ### Written About But Never Created
+
+Littered about the Internet you will find various partially-completed projects.
+If you don't find something about it here, chances are
+it's a dead project. While I start projects with great enthusiasm, I have
+yet to find a consistent method for pruning ones that fail to take on a life of
+their own.
 
 Most of these were mentioned in various editions of *Thinking in Java*
 

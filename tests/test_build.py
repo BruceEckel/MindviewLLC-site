@@ -12,7 +12,6 @@ SLUGS = [
     "about",
     "bibliography",
     "devretreat",
-    "events",
     "media",
     "mindview",
     "quicklinks",
@@ -76,6 +75,12 @@ def test_files_beside_a_page_are_published(dist):
     for name in ("W9.pdf", "MidEngrCoverHi.JPG", "UnixReviewCoverHi.JPG"):
         assert (dist / "about" / name).is_file()
     assert not list(dist.rglob("*.md"))
+
+
+def test_the_old_events_address_redirects(dist):
+    rules = (dist / "_redirects").read_text(encoding="utf-8")
+    assert "/events/  /quicklinks/#conferences  301" in rules
+    assert 'id="conferences"' in read(dist, "quicklinks")
 
 
 def test_the_bio_is_included_in_the_about_page(dist):
