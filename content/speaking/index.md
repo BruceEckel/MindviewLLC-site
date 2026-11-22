@@ -112,7 +112,7 @@ my entrance to a country.
 
 ## AV Requirements
 
-I give presentations from my notebook computer (a Dell Windows 10 Machine with
+I give presentations from my notebook computer (Windows 11 machine with
 HDMI connector), so unless otherwise specified you should provide a computer
 projection system that will handle at least Super VGA output of **1024 x 768**.
 If the room or audience warrants it, you should also provide a PA system and
