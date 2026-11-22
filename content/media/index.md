@@ -9,7 +9,7 @@ weight: 50
 
 - June 2026 [Bruce Eckel on Free-Threaded Python, Type Checking, and Programming in the AI Era](https://www.youtube.com/watch?v=hj6RiSEUuoY) (Interview with Paul Everitt at PyCon, on the PyCharm channel)
 
-- May 2026 PyCon Presentation [Demystifying the GIL](https://us.pycon.org/2026/schedule/presentation/45/)
+- May 2026 PyCon Presentation [Demystifying the GIL](https://youtu.be/MC1PQ7ZgUeU) ([schedule page](https://us.pycon.org/2026/schedule/presentation/45/))
 
 - January 2026 [GOTO Book Club: Effect Oriented Programming](https://gotopia.tech/episodes/420/effective-oriented-programming) (Interview by Andrew Harmel-Law, with Bill Frasure and James Ward; also on [YouTube](https://www.youtube.com/watch?v=Qds6rO9lxps))
 
