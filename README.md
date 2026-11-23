@@ -60,7 +60,13 @@ A GitHub Actions workflow runs the tests on the same push.
 
 ## Moving to the custom domain
 
-The trial site carries a `noindex` tag. To go live:
+`preview = false` in `site.toml` lets search engines index the site.
+Setting it to `true` adds a `noindex` tag to every page, for a trial copy.
 
-1. Set `preview = false` in `site.toml` and push.
-2. In Netlify, move the `www.mindviewllc.com` domain from the old site to this one.
+To serve the site at `www.mindviewllc.com`, move the domain in Netlify:
+
+1. In the old site's Domain management, remove `www.mindviewllc.com` and `mindviewllc.com`.
+2. In this site's Domain management, add `www.mindviewllc.com` and make it the primary domain.
+   Netlify offers to add `mindviewllc.com` with it.
+
+The domain uses Netlify DNS, so Netlify updates the records and the certificate when the domain moves.

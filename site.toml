@@ -9,7 +9,7 @@ intro = "I'm Bruce Eckel and this is my company, MindView. I create books, semin
 # URL variable that Netlify sets, so this value matters for a local build.
 origin = "https://www.mindviewllc.com"
 base = ""         # A path prefix, for a host that serves the site below the root
-preview = true    # true adds a noindex tag, so search engines skip the trial site
+preview = false   # true adds a noindex tag, so search engines skip a trial site
 
 logo = "/images/mindview-circle.png"
 favicon = "/images/favicon.png"
