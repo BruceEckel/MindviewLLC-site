@@ -1,6 +1,10 @@
+# Addresses of the Hugo site that this one replaced in November 2026.
 /events/  /quicklinks/#conferences  301
 /categories/  /  301
 /tags/  /  301
+
+# One address for the site: the Netlify address and the older company
+# domain both go to www.mindviewllc.com.
 https://mindviewllc-site.netlify.app/*  https://www.mindviewllc.com/:splat  301!
 http://mindviewllc-site.netlify.app/*  https://www.mindviewllc.com/:splat  301!
 https://www.mindviewinc.com/*  https://www.mindviewllc.com/:splat  301!

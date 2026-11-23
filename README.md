@@ -7,7 +7,7 @@ The source of [MindviewLLC.com](https://www.mindviewllc.com), generated from Mar
 - Each page is `content/<name>.md`, with a `title` and a `weight` in its front matter.
   `weight` sets the order of the Previous and Next links.
 - A page that needs other files keeps them in a folder with the page's name.
-  `content/about/W9.pdf` is published at `/about/W9.pdf`, so `about.md` links to it as `W9.pdf`.
+  `content/about/W9.pdf` is published at `/about/W9.pdf`, and `about.md` links to it by that address.
 - A line that reads `<!-- include: bio.md -->` is replaced by the text of that file from the page's folder, `content/about/bio.md` for `about.md`.
 - The menu and the home page cards are in `site.toml`.
 - Write a link to another page from the site root: `[Speaking](/speaking)`.
@@ -61,7 +61,12 @@ A GitHub Actions workflow runs the tests on the same push.
 
 Netlify serves the site at `www.mindviewllc.com`, the primary domain, with `mindviewllc.com` and `www.mindviewinc.com` as aliases.
 All three use Netlify DNS.
-`static/_redirects` sends `www.mindviewinc.com` and the project's `mindviewllc-site.netlify.app` address to the primary domain.
+Netlify redirects `http` to `https`.
 
-`preview = false` in `site.toml` lets search engines index the site.
-Setting it to `true` adds a `noindex` tag to every page, for a trial copy.
+`static/_redirects` holds the other redirects:
+
+- `www.mindviewinc.com` and the project's `mindviewllc-site.netlify.app` address go to the primary domain, so the site has one address.
+- `/events/`, `/categories/`, and `/tags/` were pages of the Hugo site that this one replaced in November 2026, and they go to pages that exist.
+
+`preview = true` in `site.toml` adds a `noindex` tag to every page.
+Use it for a copy of the site that search engines should skip.

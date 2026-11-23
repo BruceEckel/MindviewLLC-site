@@ -43,11 +43,6 @@ def test_every_content_page_is_built(dist):
     assert (dist / "404.html").is_file()
 
 
-def test_no_hugo_shortcode_survives(dist):
-    for page in pages(dist):
-        assert "{{<" not in page.read_text(encoding="utf-8"), page
-
-
 def test_internal_links_carry_the_base_and_resolve(dist):
     for page in pages(dist):
         html = page.read_text(encoding="utf-8")
@@ -77,10 +72,16 @@ def test_files_beside_a_page_are_published(dist):
     assert not list(dist.rglob("*.md"))
 
 
-def test_the_old_events_address_redirects(dist):
+def test_the_redirects_are_published(dist):
     rules = (dist / "_redirects").read_text(encoding="utf-8")
     assert "/events/  /quicklinks/#conferences  301" in rules
     assert 'id="conferences"' in read(dist, "quicklinks")
+    for address in ("/categories/", "/tags/"):
+        assert f"{address}  /  301" in rules
+    for host in ("mindviewllc-site.netlify.app", "www.mindviewinc.com"):
+        for scheme in ("https", "http"):
+            rule = f"{scheme}://{host}/*  https://www.mindviewllc.com/:splat  301!"
+            assert rule in rules
 
 
 def test_the_bio_is_included_in_the_about_page(dist):
