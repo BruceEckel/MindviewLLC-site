@@ -61,7 +61,7 @@ A GitHub Actions workflow runs the tests on the same push.
 
 Netlify serves the site at `www.mindviewllc.com`, the primary domain, with `mindviewllc.com` and `www.mindviewinc.com` as aliases.
 All three use Netlify DNS.
-`static/_redirects` sends the project's `mindviewllc-site.netlify.app` address to the primary domain.
+`static/_redirects` sends `www.mindviewinc.com` and the project's `mindviewllc-site.netlify.app` address to the primary domain.
 
 `preview = false` in `site.toml` lets search engines index the site.
 Setting it to `true` adds a `noindex` tag to every page, for a trial copy.

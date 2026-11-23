@@ -3,3 +3,5 @@
 /tags/  /  301
 https://mindviewllc-site.netlify.app/*  https://www.mindviewllc.com/:splat  301!
 http://mindviewllc-site.netlify.app/*  https://www.mindviewllc.com/:splat  301!
+https://www.mindviewinc.com/*  https://www.mindviewllc.com/:splat  301!
+http://www.mindviewinc.com/*  https://www.mindviewllc.com/:splat  301!
