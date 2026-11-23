@@ -1,3 +1,5 @@
 /events/  /quicklinks/#conferences  301
 /categories/  /  301
 /tags/  /  301
+https://mindviewllc-site.netlify.app/*  https://www.mindviewllc.com/:splat  301!
+http://mindviewllc-site.netlify.app/*  https://www.mindviewllc.com/:splat  301!

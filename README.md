@@ -1,7 +1,6 @@
 # MindView web site
 
-A redesign of [MindviewLLC.com](https://www.mindviewllc.com), generated from Markdown by one Python script.
-Trial site: <https://mindviewllc-site.netlify.app/>
+The source of [MindviewLLC.com](https://www.mindviewllc.com), generated from Markdown by one Python script.
 
 ## Edit
 
