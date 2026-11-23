@@ -57,15 +57,11 @@ A GitHub Actions workflow runs the tests on the same push.
 | `templates/` | Jinja2 page templates |
 | `static/` | CSS, JavaScript, and images, copied as they are |
 
-## Moving to the custom domain
+## Domains
+
+Netlify serves the site at `www.mindviewllc.com`, the primary domain, with `mindviewllc.com` and `www.mindviewinc.com` as aliases.
+All three use Netlify DNS.
+`static/_redirects` sends the project's `mindviewllc-site.netlify.app` address to the primary domain.
 
 `preview = false` in `site.toml` lets search engines index the site.
 Setting it to `true` adds a `noindex` tag to every page, for a trial copy.
-
-To serve the site at `www.mindviewllc.com`, move the domain in Netlify:
-
-1. In the old site's Domain management, remove `www.mindviewllc.com` and `mindviewllc.com`.
-2. In this site's Domain management, add `www.mindviewllc.com` and make it the primary domain.
-   Netlify offers to add `mindviewllc.com` with it.
-
-The domain uses Netlify DNS, so Netlify updates the records and the certificate when the domain moves.
