@@ -11,7 +11,7 @@ I like to add speaking into the mix whenever I can.
 Because I live in the mountains, about 4.5 hours from the Denver airport,
 travel is a significant investment for me, and this limits the number of trips
 I can make (presentation preparation is also a factor). Also, once I'm
-traveling (see the [Event List](/quicklinks#conferences)), it's easier to add more stops than
+traveling, it's easier to add more stops than
 to go home and make a new trip.
 
 Enthusiasm is key -- if your group is enthusiastic, that energy goes a long way
@@ -123,10 +123,10 @@ room equipped with computers).
 
 ## Inquiries
 
-Check the [Event list](/quicklinks#conferences) for conflicts. You may also find that an event is
-already scheduled in your area and you can add yours while I'm there, so I can
-do it in a single trip, which can often save money.
-
 To inquire, contact me via <button type="button" class="email-button" data-to="mindview">Show email address</button>. Please give details about
 your event and what you hope I can speak about, or how I can otherwise
 contribute. Please try to allow as much lead time as possible.
+
+Include your dates and location.
+I may already have a trip planned to your area,
+and adding your event to that trip can often save money.

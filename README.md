@@ -5,10 +5,11 @@ Trial site: <https://mindviewllc-site.netlify.app/>
 
 ## Edit
 
-- Each page is `content/<name>/index.md`, with a `title` and a `weight` in its front matter.
+- Each page is `content/<name>.md`, with a `title` and a `weight` in its front matter.
   `weight` sets the order of the Previous and Next links.
-- A file placed beside `index.md`, such as `content/about/W9.pdf`, is published in that page's folder.
-- A line that reads `<!-- include: bio.md -->` is replaced by the text of that file from the page's folder.
+- A page that needs other files keeps them in a folder with the page's name.
+  `content/about/W9.pdf` is published at `/about/W9.pdf`, so `about.md` links to it as `W9.pdf`.
+- A line that reads `<!-- include: bio.md -->` is replaced by the text of that file from the page's folder, `content/about/bio.md` for `about.md`.
 - The menu and the home page cards are in `site.toml`.
 - Write a link to another page from the site root: `[Speaking](/speaking)`.
   The build stops with an error if a link matches no page.

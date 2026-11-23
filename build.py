@@ -59,10 +59,10 @@ def load_page(source: Path, md: MarkdownIt) -> Page:
     text = source.read_text(encoding="utf-8")
     _, front, body = text.split("---", 2)
     meta = yaml.safe_load(front)
-    # "<!-- include: bio.md -->" on a line of its own becomes that file's text.
-    body = INCLUDE.sub(
-        lambda m: (source.parent / m[1]).read_text(encoding="utf-8"), body
-    )
+    # "<!-- include: bio.md -->" on a line of its own becomes that file's text,
+    # read from the folder named after the page: content/about/bio.md.
+    folder = source.with_suffix("")
+    body = INCLUDE.sub(lambda m: (folder / m[1]).read_text(encoding="utf-8"), body)
     tokens = md.parse(body)
 
     def headings(tag: str) -> list[tuple[str, str]]:
@@ -75,7 +75,7 @@ def load_page(source: Path, md: MarkdownIt) -> Page:
     # The list shows the H2s, or the H3s on a page that has no H2.
     toc = headings("h2") or headings("h3")
     return Page(
-        slug=source.parent.name,
+        slug=source.stem,
         title=meta["title"],
         html=md.renderer.render(tokens, md.options, {}),
         weight=meta.get("weight"),
@@ -86,7 +86,7 @@ def load_page(source: Path, md: MarkdownIt) -> Page:
 
 def load_pages() -> list[Page]:
     md = markdown()
-    pages = [load_page(p, md) for p in sorted(CONTENT.glob("*/index.md"))]
+    pages = [load_page(p, md) for p in sorted(CONTENT.glob("*.md"))]
     ordered = sorted(
         (p for p in pages if p.weight is not None), key=lambda p: p.weight or 0
     )
@@ -109,7 +109,7 @@ def finish(html: str, base: str, slugs: set[str], where: str) -> str:
         name = path.strip("/")
         if name in slugs and not path.endswith("/"):
             path += "/"
-        beside = CONTENT / name  # A file that sits next to a page's index.md
+        beside = CONTENT / name  # A file in a page's folder, such as about/W9.pdf
         known = (
             name in slugs
             or name == ""
@@ -140,7 +140,8 @@ def build(out: Path = ROOT / "dist", base: str | None = None) -> None:
     if out.exists():
         shutil.rmtree(out)
     shutil.copytree(STATIC, out)
-    # A page's folder also holds the files the page links to, such as a PDF.
+    # The folder named after a page holds the files the page links to, such as
+    # a PDF, and they are published beside the page.
     for extra in CONTENT.glob("*/*"):
         if extra.is_file() and extra.suffix != ".md":
             target = out / extra.relative_to(CONTENT)

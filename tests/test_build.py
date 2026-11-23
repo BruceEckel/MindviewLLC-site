@@ -35,7 +35,7 @@ def read(dist: Path, slug: str) -> str:
 
 
 def test_every_content_page_is_built(dist):
-    sources = sorted(p.parent.name for p in build.CONTENT.glob("*/index.md"))
+    sources = sorted(p.stem for p in build.CONTENT.glob("*.md"))
     assert sources == SLUGS
     for slug in SLUGS:
         assert (dist / slug / "index.html").is_file()

@@ -5,7 +5,7 @@ description: "Contact MindView, read Bruce Eckel's biographies in four lengths, 
 ---
 
 - Questions? Email MindView: <button type="button" class="email-button" data-to="mindview">Show email address</button><noscript> (Enable JavaScript to see the email address.)</noscript>
-- [IRS Form W-9](W9.pdf)
+- [IRS Form W-9](/about/W9.pdf)
 
 ## Biography
 
@@ -26,9 +26,9 @@ description: "Contact MindView, read Bruce Eckel's biographies in four lengths, 
 
 Two magazine covers from the past.
 
-<img class="cover" src="MidEngrCoverHi.JPG" alt="Midnight Engineering, May/June 1994, with Bruce Eckel on the cover" width="944" height="1233">
+<img class="cover" src="/about/MidEngrCoverHi.JPG" alt="Midnight Engineering, May/June 1994, with Bruce Eckel on the cover" width="944" height="1233">
 
-<img class="cover" src="UnixReviewCoverHi.JPG" alt="Unix Review cover" width="960" height="1284">
+<img class="cover" src="/about/UnixReviewCoverHi.JPG" alt="Unix Review cover" width="960" height="1284">
 
 
 + Site built from Markdown by a
